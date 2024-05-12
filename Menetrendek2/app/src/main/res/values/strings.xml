@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">Menetrendek</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="log_in">Log in</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="name">Name</string>
+    <string name="password_again">Password again</string>
+    <string name="menetredek">Menetredek</string>
+    <string name="menu">Menu</string>
+    <string name="to">To</string>
+    <string name="from">From</string>
+    <string name="ticket">Tickets</string>
+    <string name="logout">Logout</string>
+    <string name="choose_date">Choose date</string>
+    <string name="choose_time">Choose time</string>
+    <string name="search">Search</string>
+    <string name="buy_ticket">Buy ticket</string>
+    <string name="account">Account</string>
+    <string name="favoutites">Favourites</string>
+    <string name="close_drawer_menu">Close menu</string>
+    <string name="open_drawer_menu">Open menu</string>
+    <string name="title_activity_test">test</string>
+    <string name="title_activity_test2">test2</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="app_logo">App logo</string>
+    <string name="title_activity_main_page">MainPageActivity</string>
+    <string name="new_password">New Password</string>
+    <string name="new_password_again">New password again</string>
+    <string name="old_password">Old password</string>
+    <string name="modify">Modify</string>
+    <string name="scan_something">Scan something</string>
+    <string name="back">Back</string>
+    <string name="buy">Buy</string>
+    <string name="use">Use</string>
+    <string name="placeholder">placeholder</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="route_id">Route ID</string>
+    <string name="back_button">Back button</string>
+    <string name="delete">Delete</string>
+    <string name="add_route">Add Route</string>
+</resources>

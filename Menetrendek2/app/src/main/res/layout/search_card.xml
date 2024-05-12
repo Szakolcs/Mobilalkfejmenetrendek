@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="10dp"
+            android:layout_marginHorizontal="10dp">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp">
+                <TextView
+                    android:id="@+id/ID"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/placeholder"
+                    android:layout_marginEnd="10dp"
+                    android:fontFamily="@font/gunterz_bold"/>
+                <TextView
+                    android:id="@+id/from"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/placeholder"
+                    android:layout_marginHorizontal="10dp"
+                    android:fontFamily="@font/gunterz_bold"
+                    android:layout_toEndOf="@id/ID"/>
+                <TextView
+                    android:id="@+id/to"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/placeholder"
+                    android:layout_toEndOf="@id/from"
+                    android:fontFamily="@font/gunterz_bold"/>
+                <TextView
+                    android:id="@+id/time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/placeholder"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginHorizontal="30dp"
+                    android:fontFamily="@font/gunterz_bold"/>
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+    </RelativeLayout>
+
+</RelativeLayout>

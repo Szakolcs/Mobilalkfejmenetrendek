@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ScannerActivity">
+    
+    <com.budiyev.android.codescanner.CodeScannerView
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        android:id="@+id/scanner_view"
+        app:autoFocusButtonColor="@color/white"
+        app:autoFocusButtonVisible="true"
+        app:flashButtonColor="@color/white"
+        app:flashButtonVisible="true"
+        app:maskColor="#81000000"/>
+    
+    <TextView
+        android:id="@+id/scanner_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/scanner_view"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dp"
+        android:text="@string/scan_something"
+        android:fontFamily="@font/gunterz_bold"
+        android:textColor="@color/bkk_purple"
+        android:textSize="30sp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@id/scanner_tv"
+        android:paddingHorizontal="30dp"
+        android:paddingVertical="5dp"
+        android:gravity="start">
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="@string/back"
+        android:textAlignment="center"
+        android:background="@drawable/btn_purple"
+        android:textColor="@color/white"
+        android:fontFamily="@font/gunterz_bold"/>
+
+    </RelativeLayout>
+</RelativeLayout>

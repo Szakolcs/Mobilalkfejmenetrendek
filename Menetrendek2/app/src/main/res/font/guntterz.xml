@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<font-family xmlns:android="http://schemas.android.com/apk/res/android">
+    <font android:fontStyle="normal"
+        android:fontWeight="400"
+        android:font="@font/gunterz_regular"/>
+
+    <font android:fontStyle="normal"
+        android:fontWeight="400"
+        android:font="@font/gunterz_normal"/>
+
+    <font android:fontStyle="normal"
+        android:fontWeight="400"
+        android:font="@font/gunterz_blackitalic"/>
+
+    <font android:fontStyle="normal"
+        android:fontWeight="400"
+        android:font="@font/gunterz_bold"/>
+
+    <font android:fontStyle="normal"
+        android:fontWeight="400"
+        android:font="@font/gunterz_bolditalic"/>
+
+    <font android:fontStyle="normal"
+        android:fontWeight="400"
+        android:font="@font/gunterz_medium"/>
+
+
+    <font android:fontStyle="normal"
+        android:fontWeight="400"
+        android:font="@font/gunterz_medium_italic"/>
+
+</font-family>

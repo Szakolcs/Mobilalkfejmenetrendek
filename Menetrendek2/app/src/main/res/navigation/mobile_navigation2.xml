@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation2"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.menetrendek.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_account"
+        android:name="com.example.menetrendek.ui.account.AccountFragment"
+        android:label="My Account"
+        tools:layout="@layout/fragment_account" />
+
+    <fragment
+        android:id="@+id/nav_tickets"
+        android:name="com.example.menetrendek.ui.tickets.TicketsFragment"
+        android:label="Tickets"
+        tools:layout="@layout/fragment_tickets" />
+
+    <fragment
+        android:id="@+id/search_fragment"
+        android:name="com.example.menetrendek.ui.search.SearchFragment"
+        android:label="Result"
+        tools:layout="@layout/fragment_search"/>
+
+</navigation>

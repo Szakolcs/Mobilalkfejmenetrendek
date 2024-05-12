@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1032053477850",
+    "project_id": "menetrendek2",
+    "storage_bucket": "menetrendek2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1032053477850:android:17357b47c21e703c4330e3",
+        "android_client_info": {
+          "package_name": "com.example.menetrendek"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDomV_ZBNO2q7U_iYYRG4Qs-WhEt3-QkNc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
