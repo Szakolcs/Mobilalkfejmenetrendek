@@ -4,6 +4,7 @@ Hello!
 Chat gpt még abban a tudatban él hogy a master a fő branch, ezért ott találod meg a forráskódot. 
 Az adatbázist nem sikerült összehozni, azzal ne is foglalkozz alapból 0 pont.
 Megpróbálom ide belinkelni a pontokhoz tartozó sorokat, hogy könnyebben megtaláld.
+**Ha bármi gond lenne írj bátran: discord - bluemanfaker** 
 
   -Firebase autentikáció meg van valósítva: Be lehet jelentkezni és regisztrálni:
     --https://github.com/Szakolcs/Mobilalkfejmenetrendek/blob/11466b72e83dc427e6ae62ddbace766cf144a054/Menetrendek2/app/src/main/java/com/example/menetrendek/LogIn.kt#L52
